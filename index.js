@@ -10,6 +10,7 @@ app.get('/', function(req, res){
         if(err){
             res.send('Error connecting to Mongo');
         }
+        
         res.send('Connected to Mongo')
         db.close();
     }) 
