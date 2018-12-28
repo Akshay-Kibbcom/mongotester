@@ -12,7 +12,12 @@ app.get('/', function(req, res){
             res.send('Error connecting to Mongo');
         }
         
-        res.send('Connected to Mongo')
+        console.log('Connected to Mongo')
+        db.collection('Employee').insertOne({
+            Employeeid: 1,
+            EmployeeName: "NewEmployee"
+        });
+
         db.close();
     }) 
 })
