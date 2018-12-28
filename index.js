@@ -17,6 +17,7 @@ app.get('/', function(req, res){
             Employeeid: 1,
             EmployeeName: "NewEmployee"
         });
+        res.send('Successfully Wrote to Mongo');
 
         db.close();
     }) 
