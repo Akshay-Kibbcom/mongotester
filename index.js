@@ -18,6 +18,7 @@ app.get('/', function(req, res){
             EmployeeName: "NewEmployee"
         });
         res.send('Successfully Wrote to Mongo');
+        console.log("Jenkings Testing");
 
         db.close();
     }) 
