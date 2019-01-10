@@ -17,7 +17,7 @@ app.get('/', function(req, res){
             Employeeid: 1,
             EmployeeName: "NewEmployee"
         });
-        res.send('Successfully Wrote to Mon    g o');
+        res.send('Successfully Wrote to Mon   sdkfjndk g o');
 
 
         db.close();
