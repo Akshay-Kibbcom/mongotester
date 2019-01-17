@@ -14,7 +14,7 @@ app.get('/', function(req, res){
         
         console.log('Connected to Mongo')
         res.send('Successfully Wrote to Mon sdsfsdsfsd  ssndfvhbdjhvfbdkfjndk g o');
-        db.close();
+        //db.close();
     }) 
 })
 
