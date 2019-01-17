@@ -11,9 +11,11 @@ app.get('/', function(req, res){
         if(err){
             res.send('Error connecting to Mongo');
         }
+        else{
+            console.log('Connected to Mongo')
+            res.send('Successfully Wrote to Mon sdsfsdsfsd  ssndfvhbdjhvfbdkfjndk g o');
+        }
         
-        console.log('Connected to Mongo')
-        res.send('Successfully Wrote to Mon sdsfsdsfsd  ssndfvhbdjhvfbdkfjndk g o');
         //db.close();
     }) 
 })
