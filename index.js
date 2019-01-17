@@ -13,13 +13,7 @@ app.get('/', function(req, res){
         }
         
         console.log('Connected to Mongo')
-        db.collection('Employee').insertOne({
-            Employeeid: 1,
-            EmployeeName: "NewEmployee"
-        });
         res.send('Successfully Wrote to Mon sdsfsdsfsd  ssndfvhbdjhvfbdkfjndk g o');
-
-
         db.close();
     }) 
 })
