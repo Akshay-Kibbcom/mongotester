@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const port = 3000
-var host= 'localhost';
+var host= 'skalera-deployment-mongodb.default.svc.cluster.local';
 
 var MongoClient= require('mongodb').MongoClient;
 var url = 'mongodb://'+host+'/EmployeeDB';
