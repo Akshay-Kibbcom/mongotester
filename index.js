@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const port = 3000
-var host= 'skalera-deployment-mongodb.default.svc.cluster.local';
+var host= 'skalera-deployment-mongodb.development.svc.cluster.local';
 
 var MongoClient= require('mongodb').MongoClient;
 var url = 'mongodb://'+host+'/EmployeeDB';
@@ -13,7 +13,7 @@ app.get('/', function(req, res){
         }
         else{
             console.log('Connected to Mongo')
-            res.send('Successfully Wrote to Mon sdsfsdsfsd  ssndfvhbdjhvfbdkfjndk g o');
+            res.send('Successfully Wrote to Mongo');
         }
         
         //db.close();
